@@ -1,0 +1,24 @@
+# Amazon Review Sentiment Analysis
+
+End-to-end NLP project for classifying Amazon reviews into positive or negative sentiment.
+
+## Stack
+Python, NLTK, Scikit-learn, FastAPI, Docker, Render
+
+## Model
+- TF-IDF features
+- Logistic Regression classifier
+- Binary sentiment output
+
+## API
+POST /predict  
+Input: review text  
+Output: sentiment label
+
+## Deployment
+- FastAPI inference service
+- Dockerized application
+- Deployed on Render
+
+## Author
+Siddharth Purswani
